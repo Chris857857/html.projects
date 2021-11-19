@@ -1,0 +1,271 @@
+h4,h5,h6,h1,h2,h3 {
+    margin-top: 0;
+}
+
+ul,ol {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+html,body {
+    font-family: 'OpenSans-Regular';
+    font-size: 100%;
+    background: url(../images/bg.png);
+}
+
+.container{
+    padding-top: 1em;
+}
+
+
+
+@keyframes anim{
+    0%{
+        background: url(../images/滕王阁1.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        /* top:0px */
+    }
+    50%{
+        background: url(../images/滕王阁2.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        /* background-size: 100%;
+        left: 0px;
+        top:0px */
+    }
+    100%{
+        background: url(../images/滕王阁4.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        /* background-size: 100%;
+        left: 0px;
+        top:0px */
+    }
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url(../fonts/OpenSans-Regular.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'Dorsa-Regular';
+    src: url(../fonts/Dorsa-Regular.ttf)format('truetype');
+}
+
+.banner {
+    animation: anim 30s infinite alternate;
+    position: relative;
+}
+.a-banner {
+    background: url(../images/twgbjl.jpg) no-repeat 0px 0px;
+    background-size: cover;
+  }
+
+
+.logo{
+	float:left;
+}
+.logo a{
+  color: #FFF;
+  font-size: 5em;
+  font-family: 'Dorsa-Regular';
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.logo a:hover{
+    color: #dab866;
+}
+
+
+.icons {
+    float: right;
+}
+.icons ul {
+    padding: 0;
+    margin: 3em 0 0 0;
+}
+.icons ul li {
+    display: inline-block;
+    margin: 0 .3em;
+}
+.icons ul li a.facebook {
+    background: url(../images/social.png) no-repeat 0px 0px;
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+.icons ul li a.twitter {
+    background: url(../images/social.png) no-repeat -41px 0px;
+}
+.icons ul li a.chrome {
+    background: url(../images/social.png) no-repeat -82px 0px;
+}
+.icons ul li a.dribbble {
+    background: url(../images/social.png) no-repeat -123px 0px;
+}
+.icons ul li a.pinterest {
+    background: url(../images/social.png) no-repeat -164px 0px;
+}
+.icons ul li a.facebook:hover {
+    opacity: 0.5;
+}
+
+
+.top-nav {
+    text-align: center;
+    padding: 1em 0 1em 0;
+    border-top: ridge 1px rgba(255, 255, 255, 0.62);
+    /* margin-bottom: 30%; */
+  }
+  .top-nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  .top-nav ul li {
+    display: inline-block;
+    margin: 0 2em;
+  }
+  .top-nav ul li a.active {
+    border-top: solid 2px #dab866;
+    color: #dab866;
+  }
+  .top-nav ul li a {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Dorsa-Regular';
+    text-decoration: none;
+    padding: .7em 0 0 0;
+  }
+  .top-nav ul li a:hover{
+    border-top: solid 2px #dab866;
+    color: #dab866;
+  }	
+
+
+  .banner-text{
+    padding: 1em 0;
+    background: #dab866;
+    opacity: 0.8;
+    margin-top: 30%;
+  }
+  .banner-text ul{
+      padding:0;
+      margin:0;
+  }
+  .banner-text ul li {
+    font-size: 1em;
+    margin: 0;
+    color: #FFF;
+    display: inline-block;
+  }
+
+  .copyright{
+    background: #4D4D4D;
+    padding: 1em 0;
+    text-align: center;
+  }
+  .copyright-left p{
+      color: #FFF;
+      font-size: .9em;
+      margin: .4em 0 0 0;
+  }
+  .copyright-left p a{
+      color:#FFF;
+  }
+
+  .layui-row .layui-col-xs4 img{
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+  }
+
+ 
+
+  .layui-row .container .video{
+    text-align: center;
+  }
+
+  .layui-row .container .layui-col-md4{
+    text-align: center;
+    margin: auto;
+    transition: 0.5s linear;
+  }
+
+  .layui-row .container .layui-col-md4:hover{
+    transform: scale(1.1);
+  }
+  a:hover{
+    color: #ffcc33;
+  }
+
+  a:active{
+    color: black;
+  }
+
+  .layui-row .container .layui-col-md4 a p{
+      margin: 10px 0 20px 0;
+  }
+
+  .layui-row .layui-col-xs4 h1{
+   text-align: center;
+  }
+
+  .content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /*-- about --*/
+  .about-top {
+    padding-bottom: 4em;
+  }
+  .about-top-grid h3{
+    color: #000000;
+    font-size: 1.3em;
+    margin: 0;
+    font-weight: 600;
+    line-height: 1.5em;
+  }
+  .about-top-grid p {
+    color: #808080;
+    font-size: .9em;
+    margin: 1em 0 0 0;
+    line-height: 1.8em;
+  }
+  .about-top-grid img{
+      width:100%;
+  }
+
+  .food-info{
+      color: #808080;
+      text-align: center;
+      margin: 10px 0 20px 0;
+  }
+
+  nav{
+    display: none;
+  }
+
+
+/* 响应式 */
+@media screen and (max-width:640px){
+
+  .logo , .icons , .top-nav {
+    display: none;
+  }
+
+  nav{
+    display: block;
+    opacity: 0.9;
+  }
+  
+  }
